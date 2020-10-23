@@ -19,12 +19,12 @@
        
 
         <script type="text/javascript">
-            //My api key
+           
             var apikey = {
-                key: 'SUA API KEY AQUI:)'
+                key: 'bb26da9e-0650-4fc8-883a-6dae980ec9a8'
             }
 
-        //GET Fetch Requisition
+   
         fetch('https://pro-api.coinmarketcap.com/v1/cryptocurrency/map?CMC_PRO_API_KEY=' +
                 apikey.key)
                 .then((response) => {
@@ -34,12 +34,12 @@
             .then((api) => {
                 
                 var texto = "";
-                // Get 10 coins and symbols 
+               
                 for(let i = 0; i < 10; i++){
 
 
 
-                //Show API information
+             
 
                    texto = texto + `
                   
